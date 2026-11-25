@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Coming Soon | Maple &amp; Cypress</title>
+<meta name="description" content="Maple &amp; Cypress Press is coming soon. An independent press for slow-burn stories, home of the webcomic Wrong House.">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --paper: #f7f0e1;
+    --paper-deep: #efe4cd;
+    --ink: #2b2620;
+    --cypress: #2f5d3a;
+    --maple: #b3402a;
+    --card: #fffdf7;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--paper); color: var(--ink);
+    font-family: "Source Serif 4", Georgia, serif; line-height: 1.6;
+    min-height: 100vh; display: flex; flex-direction: column;
+  }
+  .site-header {
+    padding: 1rem 1.25rem; border-bottom: 2px solid var(--paper-deep);
+  }
+  .brand {
+    font-family: "Patrick Hand", cursive; font-size: 1.5rem;
+    color: var(--cypress);
+  }
+  .brand .amp { color: var(--maple); }
+  main {
+    flex: 1; width: 100%; max-width: 880px; margin: 0 auto;
+    padding: 1.5rem 1rem 3rem; display: flex; flex-direction: column; justify-content: center;
+  }
+  .hero { text-align: center; padding: 2.5rem 0 1.5rem; }
+  .hero h1 {
+    font-family: "Patrick Hand", cursive; font-size: 3rem; margin: 0;
+    color: var(--cypress); font-weight: 400;
+  }
+  .hero .amp { color: var(--maple); }
+  .tagline { font-size: 1.2rem; font-style: italic; margin-top: .5rem; }
+  .soon-card {
+    background: var(--card); border-radius: 14px; padding: 2rem 1.75rem;
+    box-shadow: 0 2px 10px rgba(43,38,32,.08); text-align: center;
+    max-width: 640px; margin: 1rem auto 0;
+  }
+  .soon-card h2 {
+    font-family: "Patrick Hand", cursive; font-weight: 400;
+    font-size: 2.2rem; margin: 0 0 .75rem; color: var(--ink);
+  }
+  .soon-card p { font-size: 1.08rem; margin: 0 0 1rem; }
+  .soon-card p:last-child { margin-bottom: 0; }
+  .series-name { color: var(--cypress); font-weight: 600; }
+  .rating { font-size: .95rem; font-weight: 600; color: var(--maple); }
+  .site-footer {
+    text-align: center; padding: 1.5rem 1rem 2rem; font-size: .9rem;
+    border-top: 2px solid var(--paper-deep);
+  }
+</style>
+</head>
+<body>
+<header class="site-header">
+  <span class="brand">Maple <span class="amp">&amp;</span> Cypress</span>
+</header>
+<main>
+  <section class="hero">
+    <h1>Maple <span class="amp">&amp;</span> Cypress</h1>
+    <p class="tagline">An independent press for slow-burn stories.</p>
+  </section>
+  <section class="soon-card">
+    <h2>Coming soon</h2>
+    <p>The press is getting its finishing touches. Our first series is
+    <span class="series-name">Wrong House</span>: a misdelivered package, a new
+    neighbour, a marriage gone quiet. A slow-burn romance told in
+    vertical-scroll episodes, with prose chapters alongside.</p>
+    <p class="rating">Fiction for adult readers.</p>
+  </section>
+</main>
+<footer class="site-footer">
+  Maple &amp; Cypress Press | mapleandcypresspress.com
+</footer>
+</body>
+</html>
